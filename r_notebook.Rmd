@@ -29,11 +29,7 @@ mdl <- lm(speed~dist, data=cars)
 mdl
 
 ```
-```{r}
-library("broom")
-tidy(mdl)
 
-```
 
 ```{r}
 library("broom")
